@@ -1,0 +1,51 @@
+body {
+    /*color del borde #bdc3c7 y anchura del borde 20px*/
+    border: 20px solid #bdc3c7;
+    /*anchura maxima del cuerpo 700px*/
+    max-width: 700px;
+    /*anchura del cuerpo 80%*/
+    width: 80%;
+    /*margen del cuerpo 20px arriba y abajo, automatico los lados*/
+    margin: 20px auto;
+    /*padding del cuerpo 20px*/
+    padding: 20px;
+    /*fuente source sans pro*/
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4 {
+    /*color de la fecha : #3498db*/
+    color: #3498db;
+    /*transformando todos los h4 en mayuscula*/
+    text-transform: uppercase;
+    /*espacio en las letras de la fecha: 0.2rem*/
+    line-height: 0.2rem;
+}
+
+h2 {
+    /*color : #2c3e50*/
+    color: #2c3e50;
+    /*tamaño de la fuente del H2*/
+    font-size: 2.0rem;
+}
+
+
+/*el texto h2 debe ir con la primera letra en mayuscula */
+
+h2::first-letter {
+    text-transform: uppercase;
+}
+
+
+/*anchura del borde del primer parrafo*/
+
+p:nth-of-type(1) {
+    border: 5px solid white;
+}
+
+
+/*espacio entre el borde*/
+
+p {
+    border-spacing: 5px;
+}
