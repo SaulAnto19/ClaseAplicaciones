@@ -1,0 +1,22 @@
+h1 {
+    /*fuente de google fonts*/
+    font-family: raleway;
+    /*texto en mayuscula usando css*/
+    text-transform: uppercase;
+}
+
+hr {
+    /*el margen de la linea horizontal*/
+    margin-right: 50%;
+    /*color de la linea horizontal*/
+    color: #f1f1f1;
+}
+
+img {
+    /*anchura de cada imagen*/
+    width: 30%;
+    /*no me reconoce el 1.66%*/
+    border: 15px solid white;
+    /*ubicacion de la imagenes*/
+    float: left;
+}
