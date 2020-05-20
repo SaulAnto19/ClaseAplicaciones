@@ -11,6 +11,15 @@ body {
     padding: 20px;
     /*fuente source sans pro*/
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+}
+
+
+/*anchura del borde del primer parrafo*/
+
+.texto {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
 }
 
 h4 {
@@ -19,7 +28,7 @@ h4 {
     /*transformando todos los h4 en mayuscula*/
     text-transform: uppercase;
     /*espacio en las letras de la fecha: 0.2rem*/
-    line-height: 0.2rem;
+    letter-spacing: 0.2rem;
 }
 
 h2 {
@@ -37,10 +46,12 @@ h2::first-letter {
 }
 
 
-/*anchura del borde del primer parrafo*/
+/*estilo del hr*/
 
-p:nth-of-type(1) {
-    border: 5px solid white;
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 
