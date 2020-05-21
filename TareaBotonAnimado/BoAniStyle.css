@@ -1,0 +1,120 @@
+/*cuerpo*/
+
+body {
+    /*color de la pagina*/
+    background-color: #fcd04b;
+    /*fuente de google: Lato*/
+    font-family: 'Lato', sans-serif;
+    /*color de texto*/
+    color: white;
+}
+
+
+/*encabezado*/
+
+h1 {
+    /*centrado*/
+    text-align: center;
+    /*grosor del encabezado*/
+    font-weight: 300;
+}
+
+
+/*estilo del boton y estado normal*/
+
+.button_prin {
+    /*el cursor cambia*/
+    cursor: pointer;
+    /*colo de fondo del boton*/
+    background-color: #fcad26;
+    /*tamaño de la fuente del boton*/
+    font-size: 16px;
+    /*grosor del texto del boton*/
+    font-weight: 300;
+    /*color del texto del boton*/
+    color: white;
+    /*texto en mayuscula*/
+    text-transform: uppercase;
+    /*espacio entre letras en el boton*/
+    letter-spacing: 2px;
+    /*tamaño del boton*/
+    padding: 25px 80px;
+    /*color del borde*/
+    border: #efa424;
+    /*esquinas del boton*/
+    border-radius: 20px;
+    /*sombra y color de la sombra*/
+    box-shadow: 0 6px 0 #efa424;
+}
+
+
+/*centrar el boton a como sale en la imagen*/
+
+.position {
+    text-align: center;
+}
+
+
+/*estado hover*/
+
+.button_prin:hover {
+    /*sombra y color de la sombra*/
+    box-shadow: 0 4px 0 #efa424;
+    /*bajar el boton 2px*/
+    transform: translateY(2px);
+}
+
+
+/*estado active*/
+
+.button_prin:active {
+    /*quitar la sombra*/
+    box-shadow: none;
+    /*bajar el boton 6px*/
+    transform: translateY(6px);
+}
+
+
+/*diseño del otro boton de caracter individual(diseño individual) */
+
+#dise_indi {
+    /*el cursor cambia*/
+    cursor: zoom-in;
+    /*colo de fondo del boton*/
+    background-color: #fcad26;
+    /*tamaño de la fuente del boton*/
+    font-size: 16px;
+    /*grosor del texto del boton*/
+    font-weight: 300;
+    /*color del texto del boton*/
+    color: white;
+    /*texto en mayuscula*/
+    text-transform: uppercase;
+    /*espacio entre letras en el boton*/
+    letter-spacing: 2px;
+    /*tamaño del boton*/
+    padding: 25px 80px;
+    /*color del borde*/
+    border: #efa424;
+    /*esquinas del boton*/
+    border-radius: 20px;
+    /*sombra y color de la sombra*/
+    box-shadow: 0 6px 0 #efa424;
+}
+
+#dise_indi:hover {
+    /*sombra y color de la sombra*/
+    box-shadow: 0 20px 0 #efa424;
+    /*bajar el boton 2px*/
+    transform: translateY(2px);
+}
+
+
+/*estado active*/
+
+#dise_indi:active {
+    /*quitar la sombra*/
+    box-shadow: none;
+    /*bajar el boton 6px*/
+    transform: translateY(6px);
+}
