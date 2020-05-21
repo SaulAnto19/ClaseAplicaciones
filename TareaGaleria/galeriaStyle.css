@@ -1,0 +1,120 @@
+/*cuerpo de la pagina*/
+
+body {
+    background-color: white;
+}
+
+
+/*encabezado*/
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+
+/*posicion de las imagenes*/
+
+.ubication {
+    margin: 0rem 9rem;
+}
+
+
+/*imagen tamaño*/
+
+.imagen {
+    width: 100%;
+    height: auto;
+}
+
+
+/*diseño del icono*/
+
+.icono {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+
+/*del icono*/
+
+.cubrir {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.fa-camera:hover {
+    color: #eee;
+}
+
+
+/*contenido n1*/
+
+.contenido_1 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin: 1.5rem;
+    float: left;
+}
+
+
+/*contenido n1 con el evento hover*/
+
+.contenido_1:hover .cubrir {
+    opacity: 1;
+    background-color: rgba(214, 30, 30, 0.5);
+}
+
+
+/*contenido n2*/
+
+.contenido_2 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin: 1.5rem;
+    float: left;
+}
+
+
+/*contenido n2 con el evento hover*/
+
+.contenido_2:hover .cubrir {
+    opacity: 1;
+    background-color: rgba(82, 92, 121, 0.7);
+}
+
+
+/*conetenido n3*/
+
+.contenido_3 {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin: 1.5rem;
+    float: left;
+}
+
+
+/*contenido n1 con el evento hover*/
+
+.contenido_3:hover .cubrir {
+    opacity: 1;
+    background-color: rgba(65, 119, 48, 0.65);
+}
