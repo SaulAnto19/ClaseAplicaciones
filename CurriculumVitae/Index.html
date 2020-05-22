@@ -6,132 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/CVstyle.css">
+    <!--exportacion de la fuente de google fonts montserrat 800-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <!--exportacion de la fuente de google fonts lato 300-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <!--Encabezado-->
-        <h1 align="center">
-            Saúl Antonio Miranda López
-        </h1>
+        <div class="bloque_blue"></div>
+        <div class="bloque">
+            <h1>
+                Saúl Antonio Miranda López
+            </h1>
+        </div>
         <!--Objetivo-->
-        <h3 align="center">
-            <br> Mi objetivo es implemetar los conocimientos obtenidos hasta el momento de adquirir
-            <br> Experiencia y mostrar mis habilidades dentro de una empresa o institución, colaborando
-            <br> positivamente a la optimización de procesos dentro de la organización.
-        </h3>
+        <div class="objetivo">
+            <h3>
+                Mi objetivo es implemetar los conocimientos obtenidos hasta el momento de adquirir Experiencia y mostrar mis habilidades dentro de una empresa o institución, colaborando positivamente a la optimización de procesos dentro de la organización.
+            </h3>
+        </div>
     </header>
 
     <!--parte izquierda-->
-    <div align="left" margin="30px" class="informacion">
-        <img src="/CurriculumVitae/img/IMG_20200101_014738_725.jpg" width="200">
-        <h4>INFORMACIÓN DE CONTACTO</h4>
-        <table>
-            <tr>
-                <th> <img src="/CurriculumVitae/img/whatsapp.svg" width="30"> </th>
-                <th> +505-7527-2268 </th>
-            </tr>
-            <tr>
-                <td> <img src="/CurriculumVitae/img/gmail.svg" width="30"> </td>
-                <td> saulantonio0317@gmail.com </td>
-            </tr>
-            <tr>
-                <td> <img src="/CurriculumVitae/img/house.svg" width="30"></td>
-                <td> VI. Reconcilación, semáforos
-                    <br> mercado mayoreo 3C. O. 1 1/2C. S.
-                    <br> M/I.
-                </td>
-            </tr>
-        </table>
+    <div class="parte_izqui">
+        <div class="imagen">
+            <img src="/CurriculumVitae/img/IMG_20200101_014738_725.jpg" width="200">
+        </div>
+        <div class="informacion">
+            <h4>INFORMACIÓN DE CONTACTO</h4>
+            <table>
+                <tr>
+                    <th> <img src="/CurriculumVitae/img/whatsapp.svg" width="30"> </th>
+                    <th class="position"> +505-7527-2268 </th>
+                </tr>
+                <tr>
+                    <td> <img src="/CurriculumVitae/img/gmail.svg" width="30"> </td>
+                    <td class="position"> saulantonio0317@gmail.com </td>
+                </tr>
+                <tr>
+                    <td> <img src="/CurriculumVitae/img/house.svg" width="30"></td>
+                    <td> VI. Reconcilación, semáforos
+                        <br> mercado mayoreo 3C. O. 1 1/2C. S.
+                        <br> M/I.
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!--linea-->
+        <hr>
+        <div class="referencias">
+            <h4>REFERENCIAS</h4>
+            <p>
+                Carlos Manuel Herrera Fuentes
+                <br> Responsable de Laboratorio
+                <br> Facultad de Ciencias y Sistemas – UNI
+                <br> 85752789
+
+                <br>
+
+                <br> Ing. Rosa Elena Castellón Estrada
+                <br> Coordinadora de Extensión
+                <br> Facultad de Ciencias y Sistemas - UNI
+                <br> 5704 8793
+
+            </p>
+        </div>
+
+        <!--linea-->
+        <hr>
+
+        <div class="aptitudes">
+            <h4 class="h4_3"> APTITUDES</h4>
+            <ul>
+                <li>Responsabilidad</li>
+                <li>Trabajo en equipo</li>
+                <li>Empatía</li>
+                <li>Honestidad</li>
+                <li>capacidad de seguir
+                    <br> instrucciones
+                </li>
+            </ul>
+        </div>
     </div>
+    <!--parte derecha-->
+    <div class="parte_dere">
+        <div class="educacion">
+            <h4>EDUCACIÓN</h4>
 
-    <!--linea-->
-    <p>- - - - - - - - - - - - - -- - - - -- - - - - - - - - - - -</p>
-    <div align="left" class="referencias">
-        <h4>REFERENCIAS</h4>
-        <p>
-            <br> Carlos Manuel Herrera Fuentes
-            <br> Responsable de Laboratorio
-            <br> Facultad de Ciencias y Sistemas – UNI
-            <br> 85752789
+            <h5>PRIMARIA Y SECUNDARIA</h5>
+            <p>
+                Colegio Centro Educativo Bilingue alfa-Managua,Nicaragua
+            </p>
+            <h5>UNIVERSIDAD</h5>
+            <p>
+                Ingeniería de Sistemas - 4to Año
+                <br> Universidad Nacional de Ingeniería - Managua, Nicaragua.
+            </p>
+        </div>
 
-            <br>
+        <div class="cursos">
+            <h4>CURSOS</h4>
+            <ul>
+                <li>Operador de computadoras</li>
+                <li>CS50X.ni</li>
+                <li>Programación en PYTHON. Nivel Introductorio</li>
+                <li>Nivel básico de ingles</li>
+            </ul>
+        </div>
 
-            <br> Ing. Rosa Elena Castellón Estrada
-            <br> Coordinadora de Extensión
-            <br> Facultad de Ciencias y Sistemas - UNI
-            <br> 5704 8793
+        <div class="habilidades">
+            <h4>HABILIDADES</h4>
+            <ul>
+                <li>Microsoft Office: Word-Excel-Access-PowerPoint y Visio.</li>
+                <li>Desarrollador en consola C++, C y Python.</li>
+                <li>Desarrollo de aplicaciones C#, Java Swing, Java Fx.</li>
+                <li>Análisis y modelación de base de datos con SQL</li>
+                <li>Analista de software.</li>
+                <li>habilidades de contabilidad, Producción, Mercado. y la finanza.</li>
+            </ul>
+        </div>
+        <div class="par_uni">
+            <h4>PARTICIPACIONES UNIVERSITARIAS</h4>
+            <ul class="orden">
+                <li>Comité Organizador del 1er Congreso Nacional de Ingeniería de Sistemas.</li>
+                <li>2do Olimpiada Nacional de Robótica 2018, Categoría SENIOR.</li>
+                <li>II Foro tecnológico de Ingeniería de Sistemas en Juigalpa, Nicaragua.</li>
+                <li>3er Olimpiada Nacional de Robótica 2019, Categoría SENIOR.</li>
+                <li>Comité Organizador de la Feria Ciencia y tecnología de Ingeniería de Sistemas.</li>
+            </ul>
+        </div>
 
-        </p>
-    </div>
-
-    <!--linea-->
-    <p>- - - - - - - - - - - - - -- - - - -- - - - - - - - - - - -</p>
-
-    <div align="left" class="aptitudes">
-        <h4>APTITUDES</h4>
-        <ul>
-            <li>Responsabilidad</li>
-            <li>Trabajo en equipo</li>
-            <li>Empatía</li>
-            <li>Honestidad</li>
-            <li>capacidad de seguir
-                <br> instrucciones
-            </li>
-        </ul>
-    </div>
-
-    <div align="left" class="educacion">
-        <h4>EDUCACIÓN</h4>
-
-        <h5>PRIMARIA Y SECUNDARIA</h5>
-        <p>
-            Colegio Centro Educativo Bilingue alfa-Managua,Nicaragua
-        </p>
-        <h5>UNIVERSIDAD</h5>
-        <p>
-            Ingeniería de Sistemas - 4to Año
-            <br> Universidad Nacional de Ingeniería - Managua, Nicaragua.
-        </p>
-    </div>
-
-    <div align="left" class="cursos">
-        <h4>CURSOS</h4>
-        <ul>
-            <li>Operador de computadoras</li>
-            <li>CS50X.ni</li>
-            <li>Programación en PYTHON. Nivel Introductorio</li>
-            <li>Nivel básico de ingles</li>
-        </ul>
-    </div>
-
-    <div align="left" class="habilidades">
-        <h4>HABILIDADES</h4>
-        <ul>
-            <li>Microsoft Office: Word-Excel-Access-PowerPoint y Visio.</li>
-            <li>Desarrollador en consola C++, C y Python.</li>
-            <li>Desarrollo de aplicaciones C#, Java Swing, Java Fx.</li>
-            <li>Análisis y modelación de base de datos con SQL</li>
-            <li>Analista de software.</li>
-            <li>habilidades de contabilidad, Producción, Mercado. y la finanza.</li>
-        </ul>
-    </div>
-    <div align="left" class="par_uni">
-        <h4>PARTICIPACIONES UNIVERSITARIAS</h4>
-        <ul>
-            <li>Comité Organizador del 1er Congreso Nacional de Ingeniería de Sistemas.</li>
-            <li>2do Olimpiada Nacional de Robótica 2018, Categoría SENIOR.</li>
-            <li>II Foro tecnológico de Ingeniería de Sistemas en Juigalpa, Nicaragua.</li>
-            <li>3er Olimpiada Nacional de Robótica 2019, Categoría SENIOR.</li>
-            <li>Comité Organizador de la Feria Ciencia y tecnología de Ingeniería de Sistemas.</li>
-        </ul>
-    </div>
-
-    <div align="left" class="exp_lab">
-        <h4>EXPERIENCIA LABORAL</h4>
-        <ul>
-            <li>Reparación y Mantenimiento de Computadoras – independiente.</li>
-        </ul>
+        <div class="exp_lab">
+            <h4>EXPERIENCIA LABORAL</h4>
+            <ul class="orden">
+                <li>Reparación y Mantenimiento de Computadoras – independiente.</li>
+            </ul>
+        </div>
     </div>
 </body>
 
