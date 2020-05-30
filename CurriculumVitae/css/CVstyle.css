@@ -1,5 +1,6 @@
 body {
     border: 25px solid #bdc3c7;
+    min-width: 400px;
     max-width: 900px;
     width: 90%;
     margin: 20px auto;
@@ -35,6 +36,7 @@ body {
 img {
     border-radius: 100px;
     margin: 10px 30px;
+    max-width: 100%;
 }
 
 hr {
@@ -79,4 +81,30 @@ h4 {
     margin-right: 1%;
     border-right: 2px solid #2863FA;
     padding-bottom: 20px;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width:900px) {
+    .parte_izqui {
+        width: 100%;
+        float: none;
+        position: relative;
+        padding-left: 25%;
+        padding-right: 25%;
+        border-left: none;
+    }
+    .parte_dere {
+        width: auto;
+        float: none;
+        position: relative;
+        padding-left: 25%;
+        padding-right: 25%;
+        border-right: none;
+    }
+    body {
+        border: 30px solid #bdc3c7;
+        width: 85%;
+    }
 }
