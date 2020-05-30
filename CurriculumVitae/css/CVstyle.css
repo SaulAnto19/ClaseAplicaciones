@@ -1,6 +1,6 @@
 body {
     border: 25px solid #bdc3c7;
-    min-width: 400px;
+    min-width: 670px;
     max-width: 900px;
     width: 90%;
     margin: 20px auto;
@@ -88,23 +88,24 @@ h4 {
 
 @media screen and (max-width:900px) {
     .parte_izqui {
-        width: 100%;
-        float: none;
+        width: 70%;
         position: relative;
         padding-left: 25%;
         padding-right: 25%;
+        margin-left: 1%;
+        margin-right: 1%;
         border-left: none;
     }
     .parte_dere {
-        width: auto;
+        width: 80%;
         float: none;
         position: relative;
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 10%;
+        padding-right: 10%;
         border-right: none;
     }
     body {
         border: 30px solid #bdc3c7;
-        width: 85%;
+        width: 100%;
     }
 }
