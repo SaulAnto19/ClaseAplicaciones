@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adivinanza colores RGB</title>
     <link rel="stylesheet" href="../AdivinanzaRGB/css/rgb.css">
+    <!--fuente de google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <h1>El gran juego de adivinanza de colores <span id="colorMostrado"> rgb </span></h1>
+    <h1>El gran juego de adivinanza <br> de colores <br> <span id="colorMostrado"> rgb </span></h1>
 
-    <div>
+    <div id="franja">
+        <button id="reset">Colores Nuevos</button>
         <span id="mensaje"></span>
+        <button id="btnFacil">Fácil</button>
+        <button id="btnDificil" class="seleccionado">Difícil</button>
     </div>
 
     <div class="contenedor">
@@ -24,6 +29,7 @@
         <div class="cuadro"></div>
         <div class="cuadro"></div>
     </div>
+    <!--Script de Adivinanza RGB-->
     <script type="text/javascript" src="../AdivinanzaRGB/js/rgb.js"></script>
 </body>
 
